@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.Country-Details {
+    text-align: center;
+    float: right;
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 500px;
+    /* width: 25%; */
+}
+
+path:hover {
+    fill: red; /*fill is the same as color. fill is specific to svg files*/
+    stroke: lightcoral;
+}
